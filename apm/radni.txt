@@ -1,0 +1,24 @@
+1. Skinuo kod sa GIT-angular
+2. instalirao, zbog npm, ovo dvoje:
+    Windows Node version managers
+    nodist
+    nvm-windows
+--
+
+PS C:\code\Web\angular-rxjs-signals-fundamentals> nodist rm 11
+PS C:\code\Web\angular-rxjs-signals-fundamentals> nodist + 11.13.0
+ 11.13.0 [===============] 25633/25633 KiB 100% 0.0s
+11.13.0
+PS C:\code\Web\angular-rxjs-signals-fundamentals> npm install     
+npm WARN saveError ENOENT: no such file or directory, open 'C:\code\Web\angular-rxjs-signals-fundamentals\package.json'
+npm notice created a lockfile as package-lock.json. You should commit this file.
+npm WARN enoent ENOENT: no such file or directory, open 'C:\code\Web\angular-rxjs-signals-fundamentals\package.json'
+npm WARN angular-rxjs-signals-fundamentals No description
+npm WARN angular-rxjs-signals-fundamentals No repository field.
+npm WARN angular-rxjs-signals-fundamentals No README data
+npm WARN angular-rxjs-signals-fundamentals No license field.
+
+up to date in 1.195s
+found 0 vulnerabilities
+
+--
