@@ -22,3 +22,7 @@ up to date in 1.195s
 found 0 vulnerabilities
 
 --
+
+3. novi Terminal, CMD, pa npm install
+
+
