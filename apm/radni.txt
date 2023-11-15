@@ -1,28 +1,40 @@
 1. Skinuo kod sa GIT-angular
-2. instalirao, zbog npm, ovo dvoje:
+2. instalirao, zbog npm:
     Windows Node version managers
-    nodist
     nvm-windows
+    https://github.com/coreybutler/nvm-windows/releases
 --
 
-PS C:\code\Web\angular-rxjs-signals-fundamentals> nodist rm 11
-PS C:\code\Web\angular-rxjs-signals-fundamentals> nodist + 11.13.0
- 11.13.0 [===============] 25633/25633 KiB 100% 0.0s
-11.13.0
-PS C:\code\Web\angular-rxjs-signals-fundamentals> npm install     
-npm WARN saveError ENOENT: no such file or directory, open 'C:\code\Web\angular-rxjs-signals-fundamentals\package.json'
-npm notice created a lockfile as package-lock.json. You should commit this file.
-npm WARN enoent ENOENT: no such file or directory, open 'C:\code\Web\angular-rxjs-signals-fundamentals\package.json'
-npm WARN angular-rxjs-signals-fundamentals No description
-npm WARN angular-rxjs-signals-fundamentals No repository field.
-npm WARN angular-rxjs-signals-fundamentals No README data
-npm WARN angular-rxjs-signals-fundamentals No license field.
-
-up to date in 1.195s
-found 0 vulnerabilities
+PS C:\code\Web\angular-rxjs-signals-fundamentals\apm> 
 
 --
 
-3. novi Terminal, CMD, pa npm install
+3. novi Terminal, CMD, pa npm run start
 
+PS C:\code\Web\angular-rxjs-signals-fundamentals\apm> npm run start
+
+> apm@0.0.0 start
+> ng serve
+
+✔ Browser application bundle generation complete.
+
+Initial Chunk Files                                        | Names                                        |  Raw Size
+vendor.js                                                  | vendor                                       |   2.69 MB |
+styles.css, styles.js                                      | styles                                       | 451.29 kB |
+polyfills.js                                               | polyfills                                    | 333.16 kB |
+main.js                                                    | main                                         |  18.45 kB |
+runtime.js                                                 | runtime                                      |  12.61 kB |
+
+                                                           | Initial Total                                |   3.49 MB
+
+Lazy Chunk Files                                           | Names                                        |  Raw Size
+src_app_cart_cart-shell_cart-shell_component_ts.js         | cart-cart-shell-cart-shell-component         |  21.56 kB |
+src_app_products_product-list_product-list_component_ts.js | products-product-list-product-list-component |  18.95 kB |
+
+Build at: 2023-11-15T15:21:54.728Z - Hash: 12a24055253dcab5 - Time: 37118ms
+
+** Angular Live Development Server is listening on localhost:4200, open your browser on http://localhost:4200/ **
+
+
+√ Compiled successfully.
 
